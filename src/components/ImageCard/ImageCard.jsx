@@ -1,10 +1,15 @@
 import css from './ImageCard.module.css';
 
+
+
+
+
 const ImageCard = ({ image }) => {
+  const { urls, alt_description } = image;
+
   return (
     <div className={css['image-card']}>
-      <img src={image.urls.small} alt={image.alt_description} />
-      {/* Додайте будь-яку іншу інформацію про зображення, яку ви хочете відобразити */}
+      <img src={urls.regular} alt={alt_description} />
     </div>
   );
 };
