@@ -8,7 +8,7 @@
   align-items: center;
   background: url("./AdobeStock_657603660_Preview.jpeg");
   position: fixed;
-  z-index: 990;
+  z-index: 0;
 }
 .inp {
   width: 320px;
@@ -23,10 +23,4 @@
   position: absolute;
   transform: translate(-310px, 10px);
   cursor: pointer;
-}
-.loader-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

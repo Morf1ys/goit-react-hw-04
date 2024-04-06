@@ -1,17 +1,12 @@
-import PropTypes from 'prop-types';
-import css from './LoadMoreBtn.module.css';
-
-const LoadMoreBtn = ({ onLoadMore, disabled }) => {
+import css from "./LoadMoreBtn.module.css";
+const LoadMoreBtn = ({ onClick }) => {
   return (
-    <button className={css.btn} onClick={onLoadMore} disabled={disabled}>
-      Load more
-    </button>
+    <div className={css.loadMoreBtnContainer}>
+      <button className={css.loadMoreBtn} onClick={onClick} type="click">
+        Load more
+      </button>
+    </div>
   );
-};
-
-LoadMoreBtn.propTypes = {
-  onLoadMore: PropTypes.func.isRequired,
-  disabled: PropTypes.bool.isRequired,
 };
 
 export default LoadMoreBtn;
