@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://api.unsplash.co";
+const BASE_URL = "https://api.unsplash.com";
 const ACCESS_KEY = "mHJl-GjkiegL0IFy4H_Us1oLBmJWLv9DKMbanKSM7kA";
 
 const fetchImages = async (query, perPage = 12) => {
