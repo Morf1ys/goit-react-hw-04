@@ -3,7 +3,6 @@ import ImageCard from '../ImageCard/ImageCard.jsx';
 
 
 const ImageGallery = ({ images, onClick }) => {
-  console.log(images)
   return (
     <ul className={css['image-gallery']}>
       {images.map(image => (

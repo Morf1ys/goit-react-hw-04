@@ -1,9 +1,7 @@
-/* src/index.css */
-
 body {
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: #16674a !important;
+  /* background-color: #16674a !important; */
 }
 
 h1,
@@ -28,12 +26,4 @@ img {
 }
 ul {
   list-style: none;
-}
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* За допомогою цього властивості фон буде розміщений позаду всіх інших елементів */
 }

@@ -1,4 +1,10 @@
-.btn {
+.loadMoreBtnContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  /* position: relative; */
+}
+.loadMoreBtn {
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
@@ -7,11 +13,6 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.loadMoreBtn:hover {
   background-color: #0056b3;
-}
-
-.btn:disabled {
-  background-color: #6c757d;
-  cursor: not-allowed;
 }
