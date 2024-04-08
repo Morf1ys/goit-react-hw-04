@@ -8,7 +8,10 @@
   align-items: center;
   background: url("./AdobeStock_657603660_Preview.jpeg");
   position: fixed;
-  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .inp {
   width: 320px;
